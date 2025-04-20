@@ -1,0 +1,74 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f4f8;
+  color: #333;
+}
+
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profile-photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.bio {
+  font-size: 1rem;
+  color: #555;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-top: 30px;
+  color: #333;
+}
+
+.interests {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+}
+
+.interests li {
+  background: #e6f0ff;
+  color: #004080;
+  margin: 6px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 0.9rem;
+}
+
+.links {
+  margin-top: 30px;
+}
+
+.links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
